@@ -1,0 +1,239 @@
+.inicio{
+    opacity: 0;
+    transition: .3s ease;
+    height: 800px;
+}
+.land{
+    position: relative;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: row;
+
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(1, auto);
+    grid-template-areas: "t i";
+}
+
+.present{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.land-text{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color: #C4C4C4;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    grid-area: t;
+    margin: auto;
+}
+.land-title{
+    margin-bottom: 80px;
+}
+.land-button{
+    margin-top: 30px;
+    padding: 10px 35px 10px 35px;
+    background-color: #272B2F;
+    color: #C4C4C4;
+    border-radius: 20px;
+    border: 1.9px solid #C4C4C4;
+    list-style: none;
+    cursor: pointer;
+    transition:.3s ease-in-out;
+}
+.land-button:hover{
+    margin-top: 30px;
+    padding: 10px 35px 10px 35px;
+    background-color: #C4C4C4;
+    color: #272B2F;
+    border-radius: 20px;
+    list-style: none;
+    cursor: pointer;
+    transition:.3s ease-in-out;
+}
+.land-img{
+    width: 400px;
+    height: 380px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    grid-area: i;
+    margin: auto;
+}
+.vapor-cont{
+    position: absolute;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    left: 23px;
+    top: 190px;
+}
+.vapor1{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    opacity: .6;
+    animation-name:vapor1;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.vapor2{
+    position: absolute;
+    opacity: .6;
+    animation-name:vapor2;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.cursor{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    z-index: 10;
+    top: 55px;
+}
+
+.landing{
+    position: relative;
+    width: 400px;
+    height: 380px;
+}
+.scroll{
+    margin: 0px auto 0px auto;
+    position: relative;
+    width: 50px;
+
+    bottom: 0px;
+}
+.scroll-cont{
+    width: 50px;
+    position: relative;
+}
+.scroll-flecha1{
+    position: absolute;
+    width: 12px;
+    bottom: 15px;
+    left: 19px;
+    animation-name:flecha1;
+    animation-duration:.8s;
+    animation-iteration-count: infinite;
+}
+.scroll-flecha2{
+    position: absolute;
+    width: 12px;
+    bottom: 22px;
+    left: 19px;
+    animation-name:flecha2;
+    animation-duration:.8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes vapor1{
+    0%   {top: 5px;    opacity: .7;}
+    50%  {top: -4.5px; opacity: .5;}
+    100% {top: -14px;  opacity: 0;}
+
+}@keyframes vapor2{
+    0%   {top: 0px;    opacity: .7;}
+    50%  {top: -3px; opacity: .5;}
+    100% {top: -10px;  opacity: 0;}
+
+}
+@keyframes flecha1{
+    0% {bottom: 24px;}
+    100% {bottom: 22px;}
+
+}
+@keyframes flecha2{
+    0% {bottom: 17px;}
+    100% {bottom: 15px;}
+
+}
+
+@media screen and (max-width:1000px){
+    .land{
+        position: relative;
+        margin-top: 10px;
+
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: "i"
+                             "t";
+    }
+    .inicio{
+        opacity: 0;
+        transition: .3s ease;
+        height: 1100px;
+    }
+    .land-text{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+        color: #C4C4C4;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-align: center;
+        grid-area: t;
+        margin: auto;
+    }
+    .land-img{
+        width: 300px;
+        height: 280px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        grid-area: i;
+        margin: auto;
+    }
+    .landing{
+        position: relative;
+        width: 300px;
+        height: 280px;
+    }
+    .vapor-cont{
+        position: absolute;
+        z-index: 10;
+        width: 30px;
+        height: 30px;
+        left: 15px;
+        top: 133px;
+    }
+
+}

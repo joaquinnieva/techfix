@@ -1,0 +1,24 @@
+.contenedorbarras{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    position: relative;
+    background: #C4C4C4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.barras-barras{
+    width: 800px;
+    height: 100px;
+    position: relative;
+    grid-column-start: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,21 @@
+.barraSkill{
+    width: 70%;
+    height: 10px;
+    position: relative;
+    border-radius: 5px;
+    margin: auto auto auto 20px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgba(39, 43, 47, 0.7);
+}
+.barra-{
+    width: 0px;
+    height: 10px;
+    position: relative;
+    border-radius: 5px 0px 0px 5px;
+    background-color:  #FF5656;
+    opacity: 0;
+    transition: 0.8s ease 0.3s;
+}
