@@ -69,7 +69,7 @@
     transition: .3s ease-in-out;
 }
 .cont-contact{
-    width: 447px;
+    width: 100%;
     grid-column-start: 2;
     display: flex;
     justify-content: center;
@@ -129,10 +129,7 @@
         width: 1200px;
         margin: 100px auto 200px auto;
     }
-    .contact{
-        width: 1400px;
-        margin: 0px auto 0px auto;
-    }
+
 }
 @media screen and (max-width:1000px){
     .conte{
@@ -153,7 +150,6 @@
     .text-c{
         left: 100px;
         width: 130px;
-        height: 50px;
         color:  #C4C4C4;
         text-align: center;
         font-weight: 700;
