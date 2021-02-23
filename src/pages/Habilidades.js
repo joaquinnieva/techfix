@@ -8,42 +8,40 @@ const Habilidades = () => (
       <Habilidad 
       img={images.coder}
       title="Desarrollador"
-      text="Las tecnologías que se mencionan están estudiadas enteramente, 
-            el progreso de la barra comprende la facilidad y 
-            rapidez con la que me desenvuelvo."
+      text="Las tecnologías que se mencionan están completamente estudiadas, 
+            el progreso de la barra comprende la facilidad y rapidez con la que me desenvuelvo."
         />
 
       <Barrass 
       imagen={images.html}
-      barra="87"
+      barra="95"
         />
 
       <Barrass 
       imagen={images.css}
-      barra="95"
+      barra="98"
         />
 
       <Barrass
       imagen={images.js}
-      barra="75"
+      barra="80"
         />
 
       <Barrass
       imagen={images.bootstrap}
-      barra="50"
+      barra="60"
         />
 
       <Barrass
       imagen={images.react}
-      barra="70"
+      barra="85"
         />
 
       <Habilidad 
       img={images.designer}
       title="Diseñador"
-      text="En el diseño me desenvuelvo en estos programas.
-            En estos casos el progreso de las barras 
-            comprenden mi conocimiento y mi manejo con los mismos."
+      text="En el diseño manejo o trabajo con estos programas. 
+            Acá el progreso de las barras comprenden mi conocimiento y mi manejo con los mismos."
         />
 
       <Barrass
@@ -53,7 +51,7 @@ const Habilidades = () => (
 
       <Barrass
       imagen={images.illustrator}
-      barra="55"
+      barra="50"
         />
 
       <Barrass

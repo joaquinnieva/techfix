@@ -3,7 +3,7 @@ import './styles/Inicio.css';
 import images from '../components/images.js';
 import { Link } from 'react-scroll';
 
-const Inicio = () => {
+const Inicio = (props) => {
 
 	const [style, setStyle] = React.useState({});
 	
@@ -24,9 +24,7 @@ const Inicio = () => {
                 <div className="land-text">
 
                     <div className="land-title"> 
-                        Hola, si, me llamo Joaquín Nieva y
-                        soy desarrollador web, me dedico a 
-                        diseñar y crear aplicaciones web.
+                        {props.title}
                     </div>
 
                     <Link className="land-button" to="habilidades" smooth={true} > 
@@ -50,7 +48,6 @@ const Inicio = () => {
             </div>
 
             <div className="scroll">
-                <img className="scroll-cont" src={images.scroll} alt="scroll"/>
                 <img className="scroll-flecha1" src={images.flecha} alt="scroll"/>
                 <img className="scroll-flecha2" src={images.flecha} alt="scroll"/>
             </div>
