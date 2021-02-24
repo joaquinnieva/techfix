@@ -27,18 +27,22 @@ const BioCard = (bio) => {
 
         <div className="contact" style={style}>
          <h2 className="contactame">CONTÁCTAME</h2>
+         <img className="trama" src={images.trama} />
           <div className="cont-contact">
 
+          <a href="https://api.whatsapp.com/send?phone=5493512025494&text=&source=&data=&app_absent=" target="_blank">
             <div className="wsp-contact">
-                <a href="https://api.whatsapp.com/send?phone=5493512025494&text=&source=&data=&app_absent=" target="_blank"><img className="img-c" src={images.whatsapp}  alt="wsp"/></a>
+                <img className="img-c" src={images.whatsapp}  alt="wsp"/>
                 <p className="text-c"> {bio.num} </p>
                  
             </div>
+          </a>
+          <a href="mailto:joacoo.nieva@gmail.com">
             <div className="mail-contact">
-                <a href="mailto:joacoo.nieva@gmail.com"><img className="img-c" src={images.gmail} alt="mail"/></a>
+                <img className="img-c" src={images.gmail} alt="mail"/>
                 <p className="text-c"> {bio.mail} </p>
-                 
             </div>
+          </a>
           </div>
         </div>
     </div>

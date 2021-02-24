@@ -51,7 +51,7 @@ const Habilidades = () => (
 
       <Barrass
       imagen={images.illustrator}
-      barra="50"
+      barra="47"
         />
 
       <Barrass

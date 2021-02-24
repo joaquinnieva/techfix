@@ -18,6 +18,7 @@ import scroll from '../components/img/scroll.png';
 import flecha from '../components/img/flecha.png';
 import cursor from '../components/img/cursor.png';
 import vapor from '../components/img/vapor.png';
+import trama from '../components/img/trama.png';
 
 
 export default
@@ -42,4 +43,5 @@ export default
     "gmail": gmail,
     "cursor": cursor,
     "vapor": vapor,
+    "trama": trama,
     }
