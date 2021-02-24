@@ -58,7 +58,6 @@
     margin: 0px;
     opacity: 0;
     height: 250px;
-    background-color: #212529;
     
     display: flex;
     align-items: center;
@@ -90,8 +89,8 @@
 }
 .trama{
     position: absolute;
-    height: 250px;
-    opacity: .0;
+    width: 100%;
+    opacity: .6;
 }
 .wsp-contact{
     position: relative;

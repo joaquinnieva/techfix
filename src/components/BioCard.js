@@ -27,7 +27,7 @@ const BioCard = (bio) => {
 
         <div className="contact" style={style}>
          <h2 className="contactame">CONTÁCTAME</h2>
-         <img className="trama" src={images.trama} />
+         <img className="trama" src={ images.trama } />
           <div className="cont-contact">
 
           <a href="https://api.whatsapp.com/send?phone=5493512025494&text=&source=&data=&app_absent=" target="_blank">
