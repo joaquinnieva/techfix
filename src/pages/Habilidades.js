@@ -40,7 +40,7 @@ const Habilidades = () => (
       <Habilidad 
       img={images.designer}
       title="Diseñador"
-      text="En el diseño manejo o trabajo con estos programas. 
+      text="En el diseño trabajo con estos programas. 
             Acá el progreso de las barras comprenden mi conocimiento y mi manejo con los mismos."
         />
 
