@@ -18,10 +18,12 @@ const Inicio = (props) => {
   return (
       <div className="inicio" style={style}>
 
-            <div className="present">Joaquín Nieva</div>
-
             <div className="land">   
                 <div className="land-text">
+
+                    <div className="land-logo"> 
+                        <img className="logo-img" src={images.logoentero} />
+                    </div>
 
                     <div className="land-title"> 
                         {props.title}

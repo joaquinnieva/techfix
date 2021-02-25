@@ -154,6 +154,12 @@
         justify-content: center;
         align-items: center;
     }
+    .trama{
+        position: absolute;
+        height: 250px;
+        width: auto;
+        opacity: .6;
+    }
     .text-c{
         left: 100px;
         width: 130px;

@@ -37,7 +37,7 @@ const BioCard = (bio) => {
                  
             </div>
           </a>
-          <a href="mailto:joacoo.nieva@gmail.com">
+          <a href="mailto:joacoo.nieva@gmail.com" target="_blank">
             <div className="mail-contact">
                 <img className="img-c" src={images.gmail} alt="mail"/>
                 <p className="text-c"> {bio.mail} </p>
