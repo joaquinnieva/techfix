@@ -20,6 +20,9 @@ import cursor from '../components/img/cursor.png';
 import vapor from '../components/img/vapor.png';
 import trama from '../components/img/trama.png';
 import logoentero from '../components/img/logoentero.png';
+import cursord from '../components/img/cursord.png';
+import textcursor from '../components/img/textcursor.png';
+import line from '../components/img/line.png';
 
 
 export default
@@ -46,4 +49,7 @@ export default
     "vapor": vapor,
     "trama": trama,
     "logoentero": logoentero,
+    "cursord": cursord,
+    "textcursor": textcursor,
+    "line": line,
     }

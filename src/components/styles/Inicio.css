@@ -1,7 +1,7 @@
 .inicio{
     opacity: 0;
     transition: .3s ease;
-    height: 800px;
+    height: 700px;
 }
 .land{
     position: relative;
@@ -70,7 +70,6 @@
 }
 .land-img{
     width: 400px;
-    height: 380px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -117,8 +116,7 @@
 
 .landing{
     position: relative;
-    width: 400px;
-    height: 380px;
+    width: 100%;
 }
 .scroll{
     margin: 40px auto 0px auto;

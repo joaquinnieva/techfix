@@ -1,16 +1,17 @@
-import Habilidad from '../components/Habilidad';
+import HabilidadDesign from '../components/HabilidadDesign';
+import HabilidadCoder from '../components/HabilidadCoder';
 import Barrass from '../components/Barrass';
 import images from '../components/images.js';
 
 const Habilidades = () => (
 
     <div>
-      <Habilidad 
+      <HabilidadCoder
       img={images.coder}
-      title="Desarrollador"
+      title="Desarrollo"
       text="Las tecnologías que se mencionan están completamente estudiadas, 
             el progreso de la barra comprende la facilidad y rapidez con la que me desenvuelvo."
-        />
+        /> 
 
       <Barrass 
       imagen={images.html}
@@ -37,10 +38,12 @@ const Habilidades = () => (
       barra="85"
         />
 
-      <Habilidad 
+      <HabilidadDesign
+      imgAnimar={images.cursord}
+      imgAnimado={images.line}
       img={images.designer}
-      title="Diseñador"
-      text="En el diseño trabajo con estos programas. 
+      title="Diseño"
+      text="En el diseño trabajo con estos programas.    
             Acá el progreso de las barras comprenden mi conocimiento y mi manejo con los mismos."
         />
 

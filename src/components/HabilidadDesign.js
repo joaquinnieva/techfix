@@ -1,7 +1,7 @@
 import React from 'react';
-import './styles/Habilidad.css';
+import './styles/HabilidadDesign.css';
 
-const Habilidad = (props) => {
+const HabilidadDesign = (props) => {
 
 	const [style, setStyle] = React.useState({});
 	
@@ -17,6 +17,10 @@ const Habilidad = (props) => {
         <div className="cont" style={style}>
             <div className="containerh">
                 <div className="container-img">
+                    <div className="cont-animacion">
+                        <img className="animar" src={props.imgAnimar} />
+                        <img className="line" src={props.imgAnimado} />
+                    </div>
                     <img className="img" src={props.img} alt="imageh" />
                 </div>
                 <div className="container-text">
@@ -27,4 +31,4 @@ const Habilidad = (props) => {
         </div>
   );}
 
-export default Habilidad
+export default HabilidadDesign
