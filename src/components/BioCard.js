@@ -17,7 +17,7 @@ const BioCard = (bio) => {
   return (
     <div>
         <div className="conte" style={style}>
-            <div className="img-cont"> <img className="img-avatar" src={images.avatar} alt="avatar" /> </div>
+            <div className="img-cont"> <img className="img-avatar" src={images.perfil} alt="avatar" /> </div>
             <div className="text-cont"> 
                 <p className="texto">
                 {bio.text}
@@ -26,7 +26,7 @@ const BioCard = (bio) => {
         </div>
 
         <div className="contact" style={style}>
-         <h2 className="contactame">CONTÁCTAME</h2>
+         <h2 className="contactame">CONTACTO</h2>
          <img className="trama" src={ images.trama } />
           <div className="cont-contact">
 

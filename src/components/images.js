@@ -7,7 +7,7 @@ import figma from '../components/img/figma.png';
 import react from '../components/img/react.png';
 import photoshop from '../components/img/photoshop.png';
 import illustrator from '../components/img/illustrator.png';
-import avatar from '../components/img/avatar.png';
+import perfil from '../components/img/perfil.png';
 import bootstrap from '../components/img/bootstrap.png';
 import coder from '../components/img/coder.png';
 import fondo from '../components/img/fondo.jpg';
@@ -25,9 +25,9 @@ import textcursor from '../components/img/textcursor.png';
 import line from '../components/img/line.png';
 
 
-export default
-    {
-    "avatar": avatar,
+export default {
+    
+    "perfil": perfil,
     "land": land,
     "fondo": fondo,
     "bootstrap": bootstrap,

@@ -4,11 +4,11 @@ const Biografia = () => (
 
     <div>
       <BioCard 
-      text="Me llamo Joaquín Nieva. Vivo en Córdoba, Argentina y tengo 19 años. 
-         Soy desarrollador web junior frontend React.js y estoy estudiando ingeniería 
+      text="Tengo 19 años y vivo en Córdoba, Argentina.
+         Soy desarrollador web junior dedicado al frontend con React.js y estudio ingeniería 
          en computación en la Universidad Nacional de Córdoba. Siempre me gustó el diseño
          web y cada conocimiento que sumaba me llevaba más cerca a ser lo que soy hoy: desarrollador web.
-         Esta página es una presentación para que conozcas sobre mí y mis habilidades."
+         Esta página es una presentación de mí y mis habilidades."
       num="+54 3512025494"
       mail="joacoo.nieva@gmail.com"
       />
