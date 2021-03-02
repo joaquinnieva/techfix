@@ -1,7 +1,8 @@
 .conte{
     width: 90%;
     background-color: #C4C4C4;
-    margin: 100px 5% 100px 5%;
+    margin: 100px auto;
+    padding: 20px;
     position: relative;
     
     opacity: 0;
@@ -11,11 +12,8 @@
     justify-content: center;
     align-items: center;
 
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(2,1fr);
-    grid-template-areas: "img"
-                         "text";
+    display: flex;
+    flex-direction: row;
 }
 .img-cont{
     position: relative;
@@ -27,19 +25,17 @@
     grid-area: img;
 }
 .img-avatar{
-    margin-top: 50px;
     width: 350px;
 }
 .text-cont{
     height: 250px;
     display: flex;
     justify-content: center;
-
-    grid-area: text;
+    align-items: center;
 }
 .texto{
-    height: 70%;
-    width: 70%;
+    height: auto;
+    width: 100%;
     position: relative;
     margin:0px 0px 0px 0px;
     color:#272B2F;
@@ -57,7 +53,7 @@
     bottom: 0px;
     margin: 0px;
     opacity: 0;
-    height: 250px;
+    height: 200px;
     
     display: flex;
     align-items: center;
@@ -80,7 +76,7 @@
 }
 .contactame{
     width: 100%;
-    margin: 20px 0px 0px 0px;
+    margin:0px;
     text-align: center;
     color:#C4C4C4;
     letter-spacing: 2px;
@@ -91,6 +87,7 @@
     position: absolute;
     width: 100%;
     opacity: .6;
+    z-index: -1;
 }
 .wsp-contact{
     position: relative;
@@ -138,17 +135,22 @@
     }
 
 }
-@media screen and (max-width:1000px){
+@media screen and (max-width:800px){
     .conte{
-        height: 800px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+        margin: 100px 0px;
+        width: 100%;
     }
     .texto{
-        height: 70%;
-        width: 60%;
+        height: auto;
+        width: 80%;
         position: relative;
         margin:0px 0px 0px 0px;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 16px;
     
         display: flex;
         justify-content: center;
@@ -171,19 +173,12 @@
     }
     .text-cont{
         width: 100%;
-        height: 250px;
+        height: auto;
+        margin: 30px auto;
         display: flex;
         justify-content: center;
-    
-        grid-area: text;
     }
     .img-avatar{
         width: 270px;
-    }
-}
-@media screen and (max-width:500px){
-    .texto{
-        font-size: 13px;
-
     }
 }

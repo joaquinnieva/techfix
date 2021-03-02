@@ -1,6 +1,6 @@
 import HabilidadDesign from '../components/HabilidadDesign';
 import HabilidadCoder from '../components/HabilidadCoder';
-import Barrass from '../components/Barrass';
+import Barras from '../components/Barras';
 import images from '../components/images.js';
 
 const Habilidades = () => (
@@ -13,29 +13,29 @@ const Habilidades = () => (
             el progreso de la barra comprende la facilidad y rapidez con la que me desenvuelvo."
         /> 
 
-      <Barrass 
+      <Barras
       imagen={images.html}
-      barra="95"
+      barra="95%"
         />
 
-      <Barrass 
+      <Barras
       imagen={images.css}
-      barra="98"
+      barra="99%"
         />
 
-      <Barrass
+      <Barras
       imagen={images.js}
-      barra="80"
+      barra="80%"
         />
 
-      <Barrass
+      <Barras
       imagen={images.bootstrap}
-      barra="60"
+      barra="65%"
         />
 
-      <Barrass
+      <Barras
       imagen={images.react}
-      barra="85"
+      barra="85%"
         />
 
       <HabilidadDesign
@@ -47,19 +47,19 @@ const Habilidades = () => (
             Acá el progreso de las barras comprenden mi conocimiento y mi manejo con los mismos."
         />
 
-      <Barrass
+      <Barras
       imagen={images.photoshop}
-      barra="65"
+      barra="65%"
         />
 
-      <Barrass
+      <Barras
       imagen={images.illustrator}
-      barra="47"
+      barra="50%"
         />
 
-      <Barrass
+      <Barras
       imagen={images.figma}
-      barra="80"
+      barra="80%"
         />
     </div>
   )
