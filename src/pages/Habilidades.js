@@ -20,7 +20,7 @@ const Habilidades = () => (
 
       <Barras
       imagen={images.css}
-      barra="99%"
+      barra="98%"
         />
 
       <Barras
