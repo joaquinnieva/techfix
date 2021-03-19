@@ -8,8 +8,6 @@ const Biografia = () => (
          Soy desarrollador web junior dedicado al frontend, y estudio ingeniería 
          en computación en la Universidad Nacional de Córdoba. Siempre me gustó el diseño
          web y cada conocimiento que sumaba me llevaba más cerca a ser lo que hoy soy: desarrollador web."
-      num="+54 3512025494"
-      mail="joacoo.nieva@gmail.com"
       />
     </div>
   )

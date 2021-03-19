@@ -10,11 +10,9 @@ import illustrator from '../components/img/illustrator.png';
 import perfil from '../components/img/perfil.png';
 import bootstrap from '../components/img/bootstrap.png';
 import coder from '../components/img/coder.png';
-import fondo from '../components/img/fondo.jpg';
-import whatsapp from '../components/img/whatsapp.png';
+import linkedin from '../components/img/linkedin.png';
 import gmail from '../components/img/gmail.png';
 import land from '../components/img/land.png';
-import scroll from '../components/img/scroll.png';
 import flecha from '../components/img/flecha.png';
 import cursor from '../components/img/cursor.png';
 import vapor from '../components/img/vapor.png';
@@ -29,13 +27,11 @@ export default {
     
     "perfil": perfil,
     "land": land,
-    "fondo": fondo,
     "bootstrap": bootstrap,
     "coder": coder,
     "css": css,
     "html": html,
     "js": js,
-    "scroll": scroll,
     "flecha": flecha,
     "illustrator": illustrator,
     "photoshop": photoshop,
@@ -43,7 +39,7 @@ export default {
     "designer": designer,
     "jn": jn,
     "react": react,
-    "whatsapp": whatsapp,
+    "linkedin": linkedin,
     "gmail": gmail,
     "cursor": cursor,
     "vapor": vapor,
