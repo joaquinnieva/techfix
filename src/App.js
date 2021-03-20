@@ -6,7 +6,7 @@ import Portfolio from './pages/Portafolio'
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
       <div id="inicio" ></div>
       <Sobremi />
@@ -16,7 +16,7 @@ function App() {
       <Portfolio />
       <div id="sobremi" ></div>
       <Biografia />
-    </div>
+    </>
   );
 }
 

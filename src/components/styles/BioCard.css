@@ -141,13 +141,13 @@
     }
 
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:1000px){
     .conte{
         height: auto;
         display: flex;
         flex-direction: column;
         padding: 20px 0px;
-        margin: 100px 0px;
+        margin: 0px 0px 100px 0px;
         width: 100%;
     }
     .texto{

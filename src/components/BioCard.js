@@ -15,7 +15,7 @@ const BioCard = (bio) => {
 	}, 100);
 	
   return (
-    <div>
+    <>
         <div className="conte" style={style}>
             <div className="img-cont"> <img className="img-avatar" src={images.perfil} alt="avatar" /> </div>
             <div className="text-cont"> 
@@ -43,7 +43,7 @@ const BioCard = (bio) => {
           </a>
           </div>
         </div>
-    </div>
+    </>
   );}
 
 export default BioCard;

@@ -44,14 +44,14 @@ function Navbar() {
           >
             Habilidades
           </Link>
-          {/* <Link
+          <Link
             className={click ? "menutl" : "menutl-open"}
             to="portfolio"
             smooth={true}
             duration={400}
           >
             Portafolio
-          </Link> */}
+          </Link>
           <Link
             className={click ? "menutl" : "menutl-open"}
             to="sobremi"
