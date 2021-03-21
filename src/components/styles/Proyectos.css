@@ -75,6 +75,7 @@
 .proyectoscard:hover .card-hover {
   width: 300px;
   visibility: visible;
+  transition: width 0.5s;
 }
 @media screen and (min-width: 1400px) {
   .container-proyectos {

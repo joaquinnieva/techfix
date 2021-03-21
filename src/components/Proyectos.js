@@ -13,7 +13,7 @@ const Proyectos = () => (
           <a className="card-link" href="#inicio">
             <div className="card-hover">
               <h3 className="card-hover-text">"Portafolio JN"</h3>
-              <h4 className="card-hover-text">Ver más</h4>
+              <h4 className="card-hover-text">Página actual.</h4>
             </div>
           </a>
         </a>
@@ -22,7 +22,7 @@ const Proyectos = () => (
           <a className="card-link" href="https://joaquinnieva.github.io/ecommerce-proyecto/" target="_blank">
             <div className="card-hover">
               <h3 className="card-hover-text">"ecommerce"</h3>
-              <h4 className="card-hover-text">Ver más</h4>
+              <h4 className="card-hover-text">En proceso...</h4>
             </div>
           </a>
         </a>
