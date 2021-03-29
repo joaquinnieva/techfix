@@ -23,7 +23,7 @@ function Navbar() {
           <img className="navbarImg" src={jn} alt="jn" />
         </div>
 
-        <div className="rellenonav" />
+        <div className="fixnav" />
       </div>
 
       <div className={click ? "menut" : "menut-open"}>

@@ -1,5 +1,6 @@
 .conte{
     width: 90%;
+    height:450px;
     background-color: #C4C4C4;
     margin: 100px auto;
     padding: 20px;
@@ -35,7 +36,7 @@
 }
 .texto{
     height: auto;
-    width: 100%;
+    width: 90%;
     position: relative;
     margin:0px 0px 0px 0px;
     color:#272B2F;
@@ -137,7 +138,7 @@
 @media screen and (min-width:1400px){
     .conte{
         width: 1200px;
-        margin: 100px auto 200px auto;
+        margin: 200px auto 200px auto;
     }
 
 }

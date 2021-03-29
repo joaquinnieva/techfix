@@ -5,6 +5,9 @@ import js from '../components/img/js.png';
 import jn from '../components/img/jn.png';
 import figma from '../components/img/figma.png';
 import react from '../components/img/react.png';
+import redux from '../components/img/redux.png';
+import sass from '../components/img/sass.png';
+import wordpress from '../components/img/wordpress.png';
 import photoshop from '../components/img/photoshop.png';
 import illustrator from '../components/img/illustrator.png';
 import perfil from '../components/img/perfil.png';
@@ -41,6 +44,9 @@ export default {
     "designer": designer,
     "jn": jn,
     "react": react,
+    "sass": sass,
+    "redux": redux,
+    "wordpress": wordpress,
     "linkedin": linkedin,
     "gmail": gmail,
     "cursor": cursor,
