@@ -36,7 +36,7 @@ const Proyectos = () => (
           >
             <div className="card-hover">
               <p className="card-hover-text">"ecommerce"</p>
-              <p className="card-hover-text">Ver más.</p>
+              <p className="card-hover-text">En proceso...</p>
             </div>
           </div>
         </a>
