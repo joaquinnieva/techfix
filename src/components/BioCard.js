@@ -30,7 +30,7 @@ const BioCard = (bio) => {
          <img className="trama" src={ images.trama } />
           <div className="cont-contact">
 
-          <a href="https://www.linkedin.com/in/joaquin-nieva-355a79204/" target="_blank">
+          <a href="www.linkedin.com/in/joaquínnieva" target="_blank">
             <div className="linkedin-contact">
                 <img className="img-clinkedin" src={images.linkedin}  alt="linkedin"/>
                  
