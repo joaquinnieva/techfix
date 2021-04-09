@@ -26,7 +26,7 @@ import textcursor from '../components/img/textcursor.png';
 import line from '../components/img/line.png';
 import proyecto1 from '../components/img/proyecto1.png';
 import proyecto2 from '../components/img/proyecto2.png';
-
+import proyecto3 from '../components/img/proyecto3.png';
 
 export default {
     
@@ -58,4 +58,5 @@ export default {
     "line": line,
     "proyecto1": proyecto1,
     "proyecto2": proyecto2,
+    "proyecto3": proyecto3,
     }

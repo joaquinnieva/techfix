@@ -40,7 +40,23 @@ const Proyectos = () => (
             </div>
           </div>
         </a>
-        <a className="proyectoscard pro3"></a>
+        <a
+          className="proyectoscard pro3"
+          href="https://joaquinnieva.github.io/done-proyect/"
+          target="_blank"
+        >
+          <img className="proyectoscard-img" src={images.proyecto3} />
+          <div
+            className="card-link"
+            href="https://joaquinnieva.github.io/done-proyect/"
+            target="_blank"
+          >
+            <div className="card-hover">
+              <p className="card-hover-text">"Done"</p>
+              <p className="card-hover-text">En proceso...</p>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   </>

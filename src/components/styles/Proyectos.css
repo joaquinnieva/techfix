@@ -38,7 +38,6 @@
 .pro3 {
   grid-column-start: 3;
   grid-column-end: 3;
-  display: none;
 }
 .proyectoscard {
   width: 300px;
@@ -60,7 +59,6 @@
   width: 0px;
   height: 170px;
   bottom: 173px;
-  border-radius: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,9 +71,18 @@
   white-space: nowrap;
 }
 .proyectoscard:hover .card-hover {
+  position: relative;
+  top: -235px;
   width: 300px;
   visibility: visible;
   transition: width 0.5s;
+}
+.proyectoscard:hover .proyectoscard-img {
+  position: relative;
+  width: 410px;
+  left: -55px;
+  top: -31px;
+  cursor: pointer;
 }
 @media screen and (min-width: 1400px) {
   .container-proyectos {
