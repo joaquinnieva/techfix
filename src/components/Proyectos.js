@@ -47,7 +47,7 @@ const Proyectos = () => (
           >
             <div className="card-hover">
               <p className="card-hover-text">"Done"</p>
-              <p className="card-hover-text">En proceso...</p>
+              <p className="card-hover-text">Página de tareas.</p>
             </div>
           </div>
         </a>
