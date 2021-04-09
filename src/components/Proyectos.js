@@ -8,15 +8,9 @@ const Proyectos = () => (
       <h3 className="proyectos-title">Portafolio</h3>
 
       <div className="cont-proyectoscard">
-        <a
-         className="proyectoscard pro1"
-         href="#inicio"
-        >
+        <a className="proyectoscard pro1" href="#inicio">
           <img className="proyectoscard-img" src={images.proyecto1} />
-          <div
-           className="card-link"
-           href="#inicio"
-           >
+          <div className="card-link" href="#inicio">
             <div className="card-hover">
               <p className="card-hover-text">"Portafolio JN"</p>
               <p className="card-hover-text">Página actual.</p>
@@ -61,5 +55,4 @@ const Proyectos = () => (
     </div>
   </>
 );
-
 export default Proyectos;
