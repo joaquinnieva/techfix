@@ -1,21 +1,19 @@
-import Sobremi from './pages/Sobremi'
-import Habilidades from './pages/Habilidades'
-import Biografia from './pages/Biografia'
-import Navbar from './components/Navbar'
-import Portfolio from './pages/Portafolio'
+import Navbar from "./components/Navbar";
+import Inicio from "./pages/Inicio";
+import Servicios from "./pages/Servicios";
+import Informacion from "./pages/Informacion";
 
 function App() {
   return (
     <>
+      <div id="inicio"></div>
       <Navbar />
-      <div id="inicio" ></div>
-      <Sobremi />
-      <div id="habilidades" ></div>
-      <Habilidades />
-      <div id="portfolio" ></div>
-      <Portfolio />
-      <div id="sobremi" ></div>
-      <Biografia />
+      <Inicio />
+      <div id="servicios"></div>
+      <Servicios />
+      <div id="informacion"></div>
+      <Informacion />
+      <div id="contacto"></div>
     </>
   );
 }
