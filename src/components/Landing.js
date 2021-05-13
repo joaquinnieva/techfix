@@ -17,11 +17,19 @@ const Landing = (props) => {
   return (
     <div className="landing-page">
       <div className="inicio" style={style}>
-        <Link className="land-button" to="habilidades" smooth={true}>
+        <div className="container-img">
+          <img className="img-say" src={images.say} />
+          <img className="img-avatar" src={images.avatar} />
+          <img className="img-llave" src={images.llave} />
+          <img className="img-tuerca" src={images.tuerca} />
+        </div>
+        <Link className="land-button" to="serv" smooth={true}>
           Ver más
         </Link>
       </div>
-      <div className="separator"><img className="waves" src={images.waves} /></div>
+      <div className="separator">
+        <img className="waves" src={images.waves} />
+      </div>
     </div>
   );
 };

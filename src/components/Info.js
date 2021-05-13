@@ -17,7 +17,7 @@ const Info = () => {
     <>
       <div className="conte" style={style}>
         <div className="text-cont">
-          <h2 className="title">SERVICIOS</h2>
+          <h2 className="title" id="serv">SERVICIOS</h2>
           <div className="serv-cont">
             <div className="card-container">
               <img className="card-img" src={images.pc} />
@@ -37,9 +37,9 @@ const Info = () => {
         </div>
       </div>
 
-      <div className="conte" style={style}>
+      <div className="conte" style={style} id="info">
         <div className="text-cont">
-          <h2 className="title">¿QUÉ ES TECHFIX?</h2>
+          <h2 className="title" >¿QUÉ ES TECHFIX?</h2>
           <p className="texto">
             Tech Fix es un microemprendimiento que busca ayudar a las personas
             que tengan problemas con su computadora brindandole un servicio

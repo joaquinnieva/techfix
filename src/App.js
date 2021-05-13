@@ -9,9 +9,7 @@ function App() {
       <div id="inicio"></div>
       <Navbar />
       <Inicio />
-      <div id="servicios"></div>
       <Servicios />
-      <div id="informacion"></div>
       <Informacion />
       <div id="contacto"></div>
     </>
