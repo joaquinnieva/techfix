@@ -9,4 +9,4 @@ _Bienvenido a mi proyecto 👋<br /> Es un proyecto para mi portafolio donde des
 Tecnologias:
 - `React`
 - `CSS`
-[hola](![alt text](https://www.vectorlogo.zone/logos/figma/figma-icon.svg))
+[![alt text](https://www.vectorlogo.zone/logos/figma/figma-icon.svg)](https://www.vectorlogo.zone/logos/figma/figma-icon.svg)
